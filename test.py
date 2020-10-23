@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys                    #FORM ENABLEING KEY PRESSES
 from time import sleep
-
+#GmailAccount creator Script          Half
 #driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 
 driver = webdriver.Chrome("/usr/local/share/chromedriver")
