@@ -30,7 +30,7 @@ print(r)
 
 """
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait # available since 2.4.0
+from selenium.webdriver.support.ui import WebDriverWait # available since 2.4.0 not using
 
 PROXY = "12.345.678.910:8080"
 

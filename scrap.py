@@ -2,7 +2,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
 driver = webdriver.Chrome("/usr/local/share/chromedriver")
-
+# Daraz Scraper Still not working
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
 driver = webdriver.Chrome(options=chrome_options)
