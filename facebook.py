@@ -11,7 +11,7 @@ driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
 driver = webdriver.Chrome(chrome_options=chrome_options)
-#ACTUAL OPENING LINK
+#ACTUAL OPENING LIN
 e=driver.get('https://web.whatsapp.com/')
 email=driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
 email.send_keys('fraz.shabbir54@gmail.com')
