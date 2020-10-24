@@ -7,7 +7,7 @@ with sr.Microphone() as source:
     # read the audio data from the default microphone
     audio_data = r.record(source, duration=15)
     print("Recognizing...")
-    # convert speech to text
+    # convert speech to text using api
     text = r.recognize_google(audio_data)
     print(text)
     language = 'en'
