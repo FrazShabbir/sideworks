@@ -6,9 +6,9 @@ driver = webdriver.Chrome("/usr/local/share/chromedriver")
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
 driver = webdriver.Chrome(options=chrome_options)
-products=[] #List to store name of the product
-prices=[] #List to store price of the product
-ratings=[] #List to store rating of the product
+products=[] #List to store name of the products
+prices=[] #List to store price of the products
+ratings=[] #List to store rating of the products
 driver.get("https://www.daraz.pk/smartphones/?spm=a2a0e.home.cate_1.1.35e34937FAeKl5")
 content = driver.page_source
 soup = BeautifulSoup(content, 'html5lib')
