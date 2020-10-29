@@ -10,7 +10,7 @@ driver = webdriver.Chrome("/usr/local/share/chromedriver")
 #searchbox.send_keys("facebook")
 #searchbutton=driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]')
 #searchbutton.click()
-#searchbutton.send_keys(Keys.ENTER)    #using ENTER key of keyboard 
+#searchbutton.send_keys(Keys.ENTER)    #using ENTER key of
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
 driver = webdriver.Chrome(chrome_options=chrome_options)
