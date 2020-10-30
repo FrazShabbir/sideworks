@@ -7,4 +7,4 @@ myobj = gTTS(text=mytext, lang=language, slow=True)
 myobj.save("voice.mp3") 
 os.system("mpg321 mycomd.mp3")
 
-#settiing up flow
+#settiing up flow hjgj
